@@ -1,0 +1,91 @@
+#canvas {
+    border: 1px solid black;
+}
+#diagramContainer {
+    border: 1px solid black;
+}
+#drawApp {
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #fff;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.headerCanvas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-around;
+    color: white;
+    margin-top: 5px;
+    user-select: none;
+    padding: 0 15px;
+}
+#colorsAll {
+    /* width: 30%; */
+    display: flex;
+    justify-content: end;
+}
+.blockWidthColor {
+    width: 25px;
+    margin-right: 3px;
+    border: 1px solid black;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.blockWidthColor:hover {
+    border: 1px solid white;
+}
+.blockWidthColor.active {
+    border: 1px solid white;
+}
+.headerCanvasLeft {
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
+.material-icons {
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #2f2f2f;
+}
+.materialsIconOn.active {
+    border: 1px solid white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#number {
+	text-align: center;
+	color: white;
+    background-color: #4f4f4f;
+    padding: 5px 10px;
+	outline: none;
+    border-radius: 7px;
+	display: inline-block;
+	min-width: 10px;
+	max-width: 20px;
+	-moz-appearance: textfield;
+}
+.sizeIcons:active {
+    border: 1px solid white;
+}
+#footerCanvas {
+    display: flex;
+    justify-content: center;
+    padding-top: -5px;
+    color: white;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.background__color {
+    background-color: #2f2f2f;
+}

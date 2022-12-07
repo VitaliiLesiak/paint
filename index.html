@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="background__color">
+            <div class="headerCanvas">
+                <div class="headerCanvasLeft">
+                    <div>
+                        <span class="material-icons materialsIconOn">edit</span>
+                        <span class="material-icons materialsIconOn">cleaning_services</span>
+                        <span class="material-icons materialsIconOn">format_color_reset</span>
+                    </div>
+                    <div style="display: flex; align-items: center;">
+                        <span class="material-icons sizeIcons">add_circle_outline</span>
+                        <input type="number" name="number" id="number">
+                        <span class="material-icons sizeIcons">remove_circle_outline</span>
+                    </div>
+                </div>
+                <div id="colorsAll">
+                </div>
+            </div>
+            <canvas id="drawApp" width="800" height="500"></canvas>
+            <div id="footerCanvas">X: 0 | Y: 0</div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
